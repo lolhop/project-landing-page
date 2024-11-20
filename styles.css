@@ -12,6 +12,10 @@ a{
     text-decoration: none;
 }
 
+h3{
+  margin: 0;
+}
+
 section{
     display: flex;
     justify-content: center;
@@ -63,6 +67,10 @@ section{
 .dark{
     background-color: #1F2937;
     color: #F9FAF8;
+}
+
+.grey{
+  background-color: #E5E7EB;
 }
 
 .logo{
@@ -148,6 +156,58 @@ section{
   border-radius: 20px;
   border-width: 5px;
 }
+
+.quotetextmain{
+  font-size: 36px;
+  text-align: left;
+  line-height: 43px;
+}
+
+.quotetextname{
+  font-size: 30px;
+  text-align: right;
+  align-self: flex-end;
+}
+
+.ctabox{
+  background-color: #4e80ee;
+  min-height: 150px;
+  min-width: 100%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ctaleft{
+  color: white;
+}
+
+.ctah3{
+  font-size: 25px;
+}
+
+.white{
+  background-color: #4e80ee;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    max-width: 250px;
+    padding: 10px 40px;
+    border: solid;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.footer{
+  background-color: #212936;
+  color: white;
+}
+
+
+
+
+
 
 /* font classes */ 
 
